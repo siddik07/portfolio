@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portfolio</title>
+	<script src="https://kit.fontawesome.com/eb4a4eb97c.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+	<div class="containers">
+		<header>
+			<nav>
+				<label for="chk">
+					<h1><i class="fa-solid fa-bars"></i></h1>
+				</label>
+				<input type="checkbox" id="chk" />
+				<h1>My Portfolio</h1>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#service">Services</a></li>
+					<li><a href="#portfolio">Porfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<a href="#contact"><button>Hire me</button></a>
+			</nav>
+		</header>
+
+		<!-- home starts -->
+		<div id="home">
+				<section class="intro">
+					<h1>Welcome to My Portfolio</h1>
+					<h1>I'm SIDDIK N</h1>
+					<div>
+					<!-- <h1>I'am</h1> -->
+					<h1 id="role"></h1><br>
+					</div>
+					<a href="#contact"><button class="hire">Hire me</button></a>
+					<a href="./resumepy.pdf" download="Siddik_resume"><button>Dowload CV</button></a>
+				</section>
+				<img src="pic2.jpeg" alt="myimg"/>
+			
+		</div>
+
+		<!-- about starts -->
+
+		<div id="about">
+				<section>
+					<img src="pic1.jpeg" alt="my pic" />
+				</section>
+				<section>
+					<h1>About Me</h1>
+					<p>A highly motivated and detail-oriented BCA graduate with a strong foundation in 
+					Python Full Stcak Develoment. Seeking an entry-level position where I can
+apply my coding skills, collaborate with a dynamic team, and contribute to innovative projects, while
+continuously enhancing my knowledge and skills in a professional environment.
+					</p>
+					<div class="about-titles">
+<p class="about-links active-about-links" id="pr" onclick="openContent('pr','personal')">Personal-Info</p>
+						<p class="about-links" id="sk" onclick="openContent('sk','skills')">Skills</p>
+						<p class="about-links" id="edu" onclick="openContent('edu','education')">Education</p>
+					</div>
+					<div class="about-tag active-about-tag" id="personal">
+						<p><span>Name:</span>SIDDIK</p>
+						<p><span>D.O.B:</span>27/08/2002</p>
+						<p><span>Age:</span>21</p>
+						<p><span>Qualification:</span>BCA</p>
+						<p><span>Email:</span>siddiknizam27@gmail.com</p>
+						<p><span>Location:</span>Tiruvannamalai,Tamil Nadu,India.</p>
+						<p><span>Languages:</span>Tamil,English,urdu</p>
+					</div>
+					<div class="about-tag" id="skills">
+						<article>
+							<div class="front">
+								<h1>FrontEnd</h1>
+								<section>
+									<div>
+										<h1>HTML</h1>
+										<h1>80%</h1>
+									</div>
+									<span class="bar"><span class="html"></span></span>
+								</section>
+								<section>
+									<div>
+										<h1>CSS</h1>
+										<h1>60%</h1>
+									</div>
+									<span class="bar"><span class="css"></span></span>
+								</section>
+								<section>
+									<div>
+										<h1>Javascript</h1>
+										<h1>60%</h1>
+									</div>
+									<span class="bar"><span class="js"></span></span>
+								</section>
+								<section>
+									<div>
+										<h1>React JS</h1>
+										<h1>40%</h1>
+									</div>
+									<span class="bar"><span class="rjs"></span></span>
+								</section>
+																
+							</div>
+							<div class="back">
+								<h1>BackEnd</h1>
+								<section>
+									<div>
+										<h1>Python</h1>
+										<h1>85%</h1>
+									</div>
+									<span class="bar"><span class="py"></span></span>
+								</section>
+								<section>
+									<div>
+										<h1>Django</h1>
+										<h1>50%</h1>
+									</div>
+									<span class="bar"><span class="dj"></span></span>
+								</section>
+								<section>
+									<div>
+										<h1>MySQL</h1>
+										<h1>60%</h1>
+									</div>
+									<span class="bar"><span class="sql"></span></span>
+								</section>
+								
+
+							</div>
+						</article>
+
+					</div>
+					<div class="about-tag" id="education">
+						<dl>
+							<dt>Bachelor of Computer Applications <span>2020-2023</span></dt>
+							<dd>I completed my BCA degree with 80% in Shanmuga Industries 
+							Arts and Science College, Tiruvannamalai, Tamil Nadu, India.
+							</dd>
+						</dl>
+						<dl>
+							<dt>Higher Secondary 12TH <span>2019-2020</span></dt>
+							<dd>I completed my Higher Secondary with 80% in Dr.V Genguswamy Naidu Matric
+							Higher Secondary School,Tiruvannamalai, Tamil Nadu, India.
+							</dd>
+						</dl>
+						<dl>
+							<dt>Python Full Stack Develoment <span> August 2023-March 2024</span></dt>
+							<dd>Along with My degree,I also completed a Python Full Stack Develoment
+							Course from Login360 IT solutions,Velachery,Chennai,Tamil Nadu,India.
+							</dd>
+						</dl>
+
+					</div>
+
+
+				</section>
+			</div>
+
+			<!-- service starts -->
+			<div id="service">
+				<h1>My Services</h1>
+				<div class="service-cards">
+					<section>
+						<h1><MdOutlineDeveloperMode /></h1>
+						<h1>Full Stack Development</h1>
+						<p>
+							From front-end to back-end,I craft comprehensive digital solutions tailored to your needs.My FullStack development services ensure seamless integration and exceptional user experiences across all layers of your application. 
+						</p>
+					</section>
+					<section>
+						<h1><MdOutlineDeveloperMode /></h1>
+						<h1>Web Development</h1>
+						<p>
+							Elevate your online presence with web development services.I am specialize in creating responsive and visually stunning websites that captivate audiences and drive engagement. From custom designs to intuitive navigation,I am prioritize user experience to ensure your website not only looks great but also performs flawlessly across all devices and platforms.
+						</p>
+					</section>
+					<section>
+						<h1><MdOutlineDeveloperMode /></h1>
+						<h1>Back-End Development</h1>
+						<p>
+							My backend development services focus on building scalable, secure, and efficient server-side solutions to support your digital initiatives. From database management to API integrations, we architect robust backends that form the foundation of your online presence, enabling seamless functionality and optimal performance.
+						</p>
+
+					</section>
+				</div>
+			</div>
+
+			<!-- portfolio -->
+
+			<div id="portfolio">
+			<h1>My Work</h1>
+			<div class="projects">
+				<section>
+					<img src="./lib.jpeg" alt="sample" />
+					<div class="project-content">
+						<h1>Library Management</h1>
+							<p>Developed a Library Management System using Python,Django,MySQL
+							and HTML,CSS Technologies.</p>
+							<p>Implemented features for book inventory management,user registration, and book search functionality.</p>
+							<a href="https://github.com/siddik07/Library_management.git"><button>Read More</button></a>
+
+					</div>
+				</section>
+				<section>
+					<img src="./bus.jpeg" alt="sample" />
+					<div class="project-content">
+						<h1>Bus Booking System</h1>
+							<p>Developed a Bus Booking System using Python,MySQL Technologies and OOPs concept to streamline ticket reservations.
+							<p>In This project,User can register a account and book a tickets.</p>
+							<a href="https://github.com/siddik07/Bus_Booking_System.git"><button>Read More</button></a>
+					</div>
+				</section>
+				<section>
+					<img src="./mens.jpeg" alt="sample" />
+					<div class="project-content">
+						<h1>Mens Fashion Site</h1>
+							<p>Create a static men's fashion website using HTML and
+								CSS. Incorporate a modern design with a clean layout,
+								showcasing various clothing categories.</p>
+							<p>Implement responsive design for optimal viewing on
+								different devices. Include a navigation menu, product
+								pages with images and descriptions, and a user-friendly
+								checkout process</p>
+							<a href="https://siddik07.github.io/mens_fashion"><button>Read More</button></a>
+					</div>
+				</section>
+				<section>
+					<img src="./tour.jpg" alt="sample" />
+					<div class="project-content">
+						<h1>Tourism Website</h1>
+							<p>Collaborated with a cross-functional team to develop a
+								visually appealing tourism website, showcasing
+								effective teamwork and communication skills.</p>
+							<p>Implemented responsive design using HTML and CSS,
+								ensuring a seamless user experience across diverse
+								devices and contributing to the project's overall
+								success.</p>
+							<a href="https://git-soundhar.github.io/tourist-website"><button>Read More</button></a>
+					</div>
+				</section>
+			</div>
+			
+		</div>
+
+		<!-- contact -->
+
+		<div id="contact">
+			<h1>CONTACT ME</h1>
+			<div class="contact-card">
+				<section>
+					<h1>Get In Touch</h1>
+					<p>If you want to get in touch with me, the best way is to send me an email at the below email Id. I check my email regularly, and I'll get back to you as soon as possible.</p>
+					<div class="address">
+						<i class="fa-solid fa-location-dot"></i>
+						<article>
+							<h1>Address</h1>
+							<p>11A,Mariyamman Kovil 3rd Street,Tiruvannamali,
+								606601,Tamil Nadu,India.	
+							</p>
+						</article>
+						
+					</div>
+					<div class="email">
+						<i class="fa-solid fa-envelope"></i>
+						<article>
+							<h1>Email</h1>
+							<p>siddiknizam27@gmail.com</p>
+						</article>
+					</div>
+					<div class="number">
+						<i class="fa-solid fa-phone"></i>
+						<article>
+							<h1>Number</h1>
+							<p>+91-8680807354</p>
+						</article>
+					</div>
+					<div class="social-media">
+						<a href="https://www.linkedin.com/in/sidddik07"><i class="fa-brands fa-linkedin"></i></a>
+						<a href="https://www.github.com/siddik07"><i class="fa-brands fa-github"></i></a>
+						<a href="https://instagram.com/smartsiddik07?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-facebook"></i></a>
+						<a href="https://fa-whatsapp.me/8680807354"><i class="fa-brands fa-whatsapp"></i></a>
+						
+					</div>
+				</section>
+				<form>
+					<div>
+					<input type="text" name="" placeholder="First-Name" />
+					<input type="text" name="" placeholder="Last-Name" />
+					</div>
+					<div>
+					<input type="number" name="" placeholder="Your Number" />
+					<input type="email" name="" placeholder="Your mail" />
+					</div>
+					<textarea rows="6" placeholder="Your Message"></textarea>
+					<button type="submit">Send Message</button>
+				</form>
+				
+			</div>
+		</div>
+		<footer>
+			<p><span>c</span>Copyright <b>SIDDIK N</b>.All Rights Reserved Designed by siddik.</p>
+		</footer>
+		
+
+	</div>	
+
+
+	<script src="./index.js"></script>
+</body>
+</html>
