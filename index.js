@@ -36,5 +36,3 @@ var openContent=(id,cls)=>{
 }
 
 
-
-
